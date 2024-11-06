@@ -1,0 +1,39 @@
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 2s, 2s;
+}
+.div1:hover{
+    width: 300px;
+    height: 400px;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: pink;
+    transition: 2s 1s;
+}
+.div2:hover{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: blue;
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: black;
+    margin-left: 20px;
+    /* transition: margin-left 2s, background-color 4s; */
+    transition: all 2s ease-out;
+}
+.div3:hover{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: pink;
+}

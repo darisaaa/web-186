@@ -1,0 +1,14 @@
+.discription::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    display: inline-block;
+}
+.discription::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    display: inline-block;
+}

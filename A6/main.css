@@ -1,0 +1,61 @@
+body{
+    overflow: hidden;
+}
+
+.header{
+display: flex;
+width: 100%;
+background-color: white;
+padding-left: 50px;
+padding-right: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 100px;
+   
+}
+.logo{
+    width: 60%;
+   
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+}
+.main{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 50px;
+}
+.content{
+    background-color: rgb(214, 122, 244);
+    width: 40%;
+    padding: 40px;
+
+}
+.picture{
+    background-image: url('https://hemmingandwills.co.uk/cdn/shop/articles/featured_image_-_living_room_furniture_layout_1600x@2x.jpg?v=1692692232');
+    background-size: cover;
+    width: 80%;
+    height: 300px;
+    
+}
+.button{
+    background-color: black;
+    color: white;
+}
+.buttonb{
+    background-color:  rgb(214, 122, 244);
+}
+main2{
+    display: flex;
+    width: 100%;
+}
+.paragrafi{
+    
+}

@@ -1,0 +1,30 @@
+a:link{
+    color: red;
+}
+a:visited{
+    color: aquamarine;
+}
+a:hover{
+    color: purple;
+}
+a:active{
+    color: yellow;
+}
+p::first-line{
+    background-color: red;
+    color: aqua;
+}
+p::first-letter{
+    background-color: black;
+}
+.d::before{
+    content: "♥";
+    background-color: blue;
+    color: aquamarine;
+}
+.A::after{
+    content: "✯";
+    background-color: green;
+    color: black;
+}
+

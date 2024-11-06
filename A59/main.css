@@ -1,0 +1,14 @@
+img{
+width: 100px;
+height: auto;
+margin-top: 50px;
+transition: 3s;
+margin-left: 50%;
+}
+img:hover{
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 50%;
+
+}

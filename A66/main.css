@@ -1,0 +1,19 @@
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: lightpink;
+    /* clip-path: circle(80px at 50% 50%); */
+     /* clip-path: polygon(5% 5%,95% 5%,95% 95%,5% 95%); */
+
+    
+}
+.main{
+    width: 100vw;
+    height: 500px;
+    background-color: aqua;
+    font-size: 20px;
+}
+h1{
+    font-size: 3em;
+    
+}

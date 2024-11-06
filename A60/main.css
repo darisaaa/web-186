@@ -1,0 +1,50 @@
+:root{
+    --ngjyraH1:red;
+}
+h1{
+    color: var(--ngjyraH1);
+}
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100vw;
+    height: 200px;
+    background-color: red;
+}
+.main{
+    height: calc(100vh - 200px);
+    background-color: purple; */
+ /* } */ 
+ .linear{
+    width: 200px;
+    height: 200px;
+    /* background-image: linear-gradient(to bottom right,red,yellow,blue); */
+    background-image: radial-gradient(yellow, pink, purple);
+ }
+.main{
+    width: 400px;
+    height: 500px;
+    margin-top: 20px;
+    border: 1px soulid red;
+    background-image: url("https://images.inc.com/uploaded_files/image/1920x1080/getty_153781677_358140.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.hero{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(
+        90deg,
+        rgba(2, 3, 61, 0.8)0%,
+        rgba(0, 168, 255, 0.8)100%
+    ),
+    url(https://img.freepik.com/premium-vector/cute-horse-ponny-colourfull-vector_636967-241.jpg);
+    background-size: cover;
+}

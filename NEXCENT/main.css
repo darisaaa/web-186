@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+}
+header{
+    display: flex;
+    background-color: pink;
+    height: 15%;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: flex-end;
+
+}
+.logo{
+    width: 60%;
+    background-color: blue;
+    height: 100%;
+}
+.menu{
+    width: 40%;
+    background-color:aqua;
+    height: 100%;
+    display: flex;
+    justify-content:flex-end;
+    /* align-items:center; */
+    align-items: center;
+
+}

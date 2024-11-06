@@ -1,0 +1,44 @@
+div{
+   background-image: url("https://i.pinimg.com/236x/d4/49/ae/d449aee98922e9f4964e9d857551f0b2.jpg");
+   height: 100vh;
+   width: 100vw;
+   background-size: cover;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+}
+h1, p{
+    color: white;
+}
+p{
+   
+   opacity: 0;
+   transition: 0.8s;
+}
+.containt h1:hover{
+    visibility: visible;
+    opacity: 1;
+}
+h1{
+    position: absolute;
+    bottom: 0;
+    transform: 0.5s;
+
+}
+div:hover h1{
+    bottom: 35%;
+    transition: 2s;
+}
+p{
+    position: absolute;
+    bottom: 15px;
+}
+div:hover p{
+    opacity: 1;
+    bottom: 30px;
+    transition: 6s;
+
+}
+
